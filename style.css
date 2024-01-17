@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 400px;
+    background-color: #F5EEE6;
+}
+.input1{
+    height: 40px;
+    width: 80%;
+    position: relative;
+    left:10%;
+    border-radius: 5px;
+    border-color: transparent;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    background: #eee;
+    color:#333;
+    height:40px;
+    border-radius: 50px;
+    margin:10px 0px;
+    padding:10px;
+    position: relative;
+    list-style: none;
+}
+ul .fa-check, .fa-trash{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right:40px;
+    color:green;
+}
+ul .fa-trash{
+    right:15px;
+    color:#ff0033;
+}
+ul .checked{
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
